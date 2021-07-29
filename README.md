@@ -1,16 +1,45 @@
-# personal_expenditure_app
+# Expenses Recorder - Flutter Application
+>This app shows the Day-wise bar chart of last 7 days expenses and List of all the Expenses.<br/>
+>User can add their Daily Expenses with Title, Amount and Date of expense.
+## Tech Stack:
+<img alt="Flutter" src="https://img.shields.io/badge/Flutter%20-%2302569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white" />	<img alt="Dart" src="https://img.shields.io/badge/dart-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white"/>
 
-A new Flutter project.
+## About the Application
+### Home Screen
+* The screenshot shown below is the default Home Screen of Expense App.<br/>
+* There are two buttons in the center below and in the Top right to add the new transaction.<br/><br/>
+  <img src="ss2.jpeg" width="320" height="600">
+ 
+ ### After Pressing Button
+ * The screenshot shown below is the screen after pressing the button. <br/>
+ * The user can add the Title, Amount and also Pick a date.<br/><br/>
+   <img src="ss3.jpeg" width="320" height="600">
+   <img src="ss5.jpeg" width="320" height="600">
 
-## Getting Started
+ ### After Adding the Expense
+ * Expense will be added in the list.<br/>
+ * Bar chart will also be updated.
+   <img src="ss4.jpeg" width="320" height="600"><br/>
+   <img src="ExpenseSS1.jpeg" width="320" height="600">
 
-This project is a starting point for a Flutter application.
+## Want to contribute?
+### To start contributing refer to the following steps:
+**1.** Make sure you have got flutter (including the command line tool) and Android Studio installed.
 
-A few resources to get you started if this is your first Flutter project:
+**2.**  Fork [this](git@github.com:Gautamgarg991/Expense-App.git) repository.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**3.**  Clone your forked copy of the project.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+     $ git clone https://github.com/<your_user_name>/.git
+
+
+**4.** Make your changes
+
+**5.** Add and commit your changes
+
+     $ git add . && git commit -m "<your_message>"
+     
+**6.** Push Code to Github under your branch 
+
+     $ git push origin <branch_name> 
+
